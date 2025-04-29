@@ -20,12 +20,12 @@ body {
   background-image: url(https://r4.wallpaperflare.com/wallpaper/245/507/806/sand-background-beach-texture-background-hd-wallpaper-a62aed640dd41ab3498f53fa6d88ea2f.jpg);
   background-size: auto;
   background-position: center;
-  /*background: linear-gradient(140deg, var(--primary-color), var(--accent-color));*/
   color: var(--text-color);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-attachment: fixed; /* Mantiene lo sfondo fisso durante lo scroll */
+  /* Mantiene lo sfondo fisso durante lo scroll */
+  background-attachment: fixed;
 }
 
 /* Header con relativi contenuti ed effetti*/
